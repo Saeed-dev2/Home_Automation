@@ -37,7 +37,7 @@ This project uses an `ESP32 microcontroller` with an `ultrasonic sensor (HC-SR04
 ### Installation
 1. Clone this repository:
     ```sh
-    git clone [repository_url]
+    git clone  https://github.com/Saeed-dev2/Home_Automation
     cd [repository_name]
     ```
 2. Configure the project:
