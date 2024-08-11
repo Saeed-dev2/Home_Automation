@@ -116,5 +116,6 @@ void app_main() {
     init_gpio();
 
     // Create task to control LED based on sensors
+    // Freertos using to create Task
     xTaskCreate(control_led_task, "control_led_task", 4096, NULL, 5, NULL);
 }
